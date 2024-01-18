@@ -192,7 +192,6 @@ a:hover{
 }
 .sections {
     padding-top: 80px;
-    padding-bottom: 80px;
     position: relative;
     overflow: hidden;
 	
@@ -258,7 +257,7 @@ a:hover{
 }
 .main_menu_bg{
 	margin-top:0px;
-	background-color: #f3c30f;
+	background-color: rgba(0, 0, 0, 0.6);
 }
 .main_menu_bg .navbar-default {
     background-color: transparent; 
@@ -278,9 +277,9 @@ a:hover{
 	border:1px solid transparent;
 }
 .main_menu_bg .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
-	color:#3c3c3c;
+	color:#fff;
 	background-color:transparent;
-	border:1px solid #666;
+	border:1px solid #fff;
 	text-transform:uppercase;
 }
 
@@ -289,6 +288,9 @@ a:hover{
 	padding-bottom:10px;
 }
 
+.navbar-default .navbar-nav>li>a{
+	color:#fff;
+}
 
 
 /* Banner section */
@@ -309,11 +311,17 @@ a:hover{
 	color:#3c3c3c;
 }
 
+.single_banner_text{
+	position: absolute;
+	margin-top: -38%;
+}
 .menu-item{
 	display: none;
 }
 
-
+.price{
+	float:right;
+}
 
 /* features section */
 .features{
@@ -553,5 +561,4 @@ a:hover{
 	margin-top: -7px;
 	margin-left: -6px;
 	text-decoration: none;
-
 }
